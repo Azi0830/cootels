@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  width: 156px;
+  height: 51px;
+  border-radius: 4px;
+  padding: 16px, 32px, 16px, 32px;
+  background-color: #0e1734;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+/*nav start*/
+
+.nav {
+  width: 80%;
+  margin: auto;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .cootel {
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39.01px;
+  cursor: pointer;
+}
+.nav .room {
+  flex: 3;
+  display: flex;
+  gap: 32px;
+}
+.nav button {
+  border-radius: 4px;
+  margin-right: 120px;
+}
+
+/*nav end*/
+
+/*hero start*/
+.hero {
+  width: 80%;
+  margin: auto;
+  height: 845px;
+  display: flex;
+}
+.hero .text {
+  flex: 1;
+}
+.hero .text h3 {
+  width: 587px;
+  height: 144px;
+  margin-top: 215px;
+  margin-left: 120px;
+}
+.hero .text p {
+  width: 485px;
+  height: 81px;
+  margin-top: 24px;
+  margin-left: 121px;
+}
+.hero .text button {
+  margin-left: 121px;
+  margin-top: 32px;
+}
+.hero img {
+  flex: 1;
+  width: 588px;
+  height: 588px;
+  margin-top: 80px;
+  border-radius: 4px;
+  margin-right: 120px;
+}
+
+/*hero end*/
+
+/*about_us*/
+
+.about_us {
+  width: 80%;
+  height: 756px;
+  display: flex;
+  margin: auto;
+}
+.about_us img {
+  flex: 1;
+  width: 384px;
+  height: 576px;
+  border-radius: 4px;
+  margin-left: 120px;
+  margin-top: 80px;
+}
+.about_us .text {
+  flex: 2;
+  margin-left: 126px;
+}
+.about_us .text h3 {
+  margin-top: 185px;
+}
+.about_us .text p {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.about_us .text button {
+  margin-top: 32px;
+}
+
+/*about_us ends*/
+
+/*Benefit*/
+
+.benefit {
+  width: 80%;
+  height: 960px;
+  margin: auto;
+  display: grid;
+}
+.benefit .top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.benefit .top .text {
+  margin-left: 120px;
+}
+.benefit .top .text h3 {
+  width: 302px;
+  height: 54px;
+  margin-top: 113px;
+}
+.benefit .top .text p {
+  width: 584px;
+  height: 81px;
+  margin-top: 24px;
+  padding-right: 126px;
+}
+.benefit .top img {
+  width: 384px;
+  height: 384px;
+  margin-top: 80px;
+  margin-right: 226px;
+}
+.benefit .button {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-left: 120px;
+  grid-row-gap: 20px;
+}
+.benefit .button img {
+  width: 384px;
+  height: 384px;
+  border-radius: 4px;
+}
+.benefit .button .text {
+  margin-left: 216px;
+}
+.benefit .button .text h3 {
+  width: 384px;
+  height: 54px;
+  margin-top: 145px;
+}
+.benefit .button .text p {
+  width: 584px;
+  height: 81px;
+  margin-top: 24px;
+}
+
+/*Benefit end*/
+
+/*Reservation*/
+
+.reservation {
+  width: 80%;
+  height: 1176px;
+  margin: auto;
+}
+.reservation .text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reservation .text h3 {
+  margin-top: 80px;
+}
+.reservation .text p {
+  width: 588px;
+  height: 54px;
+  margin: 24px 0 32px 0;
+}
+.reservation .rooms {
+  margin-top: 88px;
+  display: flex;
+  gap: 20px;
+}
+.reservation .rooms .room {
+  flex: 1;
+}
+.reservation img {
+  width: 384px;
+  height: 489px;
+  border-radius: 4px;
+}
+.reservation .rooms .room h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 32px;
+}
+.reservation .rooms .room p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 16px;
+}
+
+/*Reservation end*/
+
+/*Room*/
+
+.room_hom {
+  width: 80%;
+  height: 596px;
+  margin: auto;
+  padding: 80px 120px 80px 118px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f5f5f5;
+}
+.room_hom .text_left {
+  padding-top: 82px;
+}
+.room_hom .text_left h4 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.room_hom .text_left p {
+  width: 384px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.room_hom .text_left .button {
+  display: flex;
+  gap: 24px;
+}
+.room_hom .text_right {
+  display: grid;
+  grid-template-rows: 100px 188px 100px;
+  grid-template-columns: 588px;
+  grid-gap: 24px;
+}
+.room_hom .text_right h4 {
+  margin-top: 36px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.position {
+  background-color: #fff;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.room_hom .text_right .right_central {
+  background-color: #fff;
+}
+.room_hom .text_right .right_central p {
+  margin-top: 24px;
+  margin-left: 36px;
+}
+
+/*Room end*/
+
+/*Testimoni*/
+
+.testimoni {
+  width: 80%;
+  height: 627px;
+  margin: auto;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.testimoni h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+.testimoni .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.testimoni p {
+  width: 793.06px;
+  height: 81px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.testimoni h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+/*Testimoni*/
+
+/*contact*/
+
+.contact {
+  width: 80%;
+  height: 444px;
+  margin: auto;
+  padding: 120px;
+  background-color: #0b265a;
+  color: #ffffff;
+  display: flex;
+}
+.contact .left {
+  flex: 1;
+}
+.contact .left h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39.01px;
+}
+.contact .left p {
+  width: 186px;
+  height: 84px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 13px;
+}
+.contact .tarmoq {
+  display: flex;
+  gap: 24px;
+}
+.contact .tarmoq svg {
+  width: 32px;
+  height: 32px;
+  margin-top: 30px;
+}
+.contact .right {
+  flex: 1;
+  display: flex;
+  gap: 100px;
+}
+.contact .right h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+.contact .right p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  margin: 24px 0;
+}
+/*contact end*/
